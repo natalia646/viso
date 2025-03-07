@@ -6,6 +6,7 @@ import { statatusMessage } from "../../utils/statusMessage";
 import { Categories } from "../Categories/Categories";
 import style from "./Recipes.module.scss";
 import { useState } from "react";
+import { FavoritesButton } from "../Favorites/FavoritesButton";
 
 export const Recipes = () => {
   const [category, setCategory] = useState("");
@@ -31,6 +32,7 @@ export const Recipes = () => {
             </Link>
             <Link to={`/${meal.idMeal}`}>{meal.strMeal}</Link>
             {meal.strCategory}
+            <FavoritesButton/>
           </li>
         ))}
       </ul>

@@ -5,3 +5,10 @@ img {
   object-position: center;
   border-radius: 10px;
 }
+
+button{
+ background-color: rgb(248, 227, 200);
+ border-radius: 4px;
+ border: none;
+ padding: 2px;
+}

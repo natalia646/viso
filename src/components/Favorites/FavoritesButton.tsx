@@ -1,0 +1,1 @@
+export const FavoritesButton = () => <button>Add to favorites</button>
